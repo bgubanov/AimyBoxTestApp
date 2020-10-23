@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AimyBox Test App</string>
+    <string name="initial_phrase">"Привет! Чем могу помочь?</string>
+</resources>

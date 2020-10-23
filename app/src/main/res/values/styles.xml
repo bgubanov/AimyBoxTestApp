@@ -1,0 +1,25 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="aimybox_assistantButtonTheme">@style/CustomAssistantButtonTheme</item>
+        <item name="aimybox_recognitionTheme">@style/CustomRecognitionWidgetTheme</item>
+        <item name="aimybox_responseTheme">@style/CustomResponseWidgetTheme</item>
+        <item name="aimybox_imageReplyTheme">@style/CustomImageReplyWidgetTheme</item>
+        <item name="aimybox_buttonReplyTheme">@style/CustomButtonReplyWidgetTheme</item>
+    </style>
+
+    <style name="CustomAssistantButtonTheme" parent="DefaultAssistantTheme.AssistantButton" />
+
+    <style name="CustomRecognitionWidgetTheme" parent="DefaultAssistantTheme.Widget.Recognition" />
+
+    <style name="CustomResponseWidgetTheme" parent="DefaultAssistantTheme.Widget.Response" />
+
+    <style name="CustomButtonReplyWidgetTheme" parent="DefaultAssistantTheme.Widget.ButtonReply" />
+
+    <style name="CustomImageReplyWidgetTheme" parent="DefaultAssistantTheme.Widget.ImageReply" />
+</resources>
