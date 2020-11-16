@@ -1,9 +1,7 @@
 package com.qazwer.aimybot.scenario
 
-import com.justai.jaicf.helpers.ssml.break300ms
-import com.justai.jaicf.helpers.ssml.break500ms
 import com.justai.jaicf.model.scenario.Scenario
-import com.justai.jaicf.template.BnCGame
+import com.qazwer.aimybot.bot.BnCGame
 import com.qazwer.aimybot.scenario.BnCComputerScenarioStates.GAME_LOOP_STATE
 import com.qazwer.aimybot.scenario.BnCComputerScenarioStates.START_GAME_WITH_COMPUTER
 import com.qazwer.aimybot.scenario.BullsAndCowsMainScenario.maxValue

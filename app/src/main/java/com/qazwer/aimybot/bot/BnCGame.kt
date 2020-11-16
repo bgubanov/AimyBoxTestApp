@@ -1,4 +1,4 @@
-package com.justai.jaicf.template
+package com.qazwer.aimybot.bot
 
 import com.justai.jaicf.context.BotContext
 
@@ -23,8 +23,4 @@ class BnCGame(botContext: BotContext) {
     fun incStepCounter() {
         stepCounter = (stepCounter?: 0) + 1
     }
-}
-
-enum class PlayerType {
-    COMPUTER, USER
 }

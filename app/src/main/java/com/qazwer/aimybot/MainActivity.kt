@@ -8,6 +8,7 @@ import androidx.core.app.ActivityCompat
 import com.justai.aimybox.Aimybox
 import com.justai.aimybox.api.aimybox.AimyboxDialogApi
 import com.justai.aimybox.components.AimyboxAssistantFragment
+import com.justai.aimybox.components.AimyboxAssistantViewModel
 import com.justai.aimybox.components.AimyboxProvider
 import com.justai.aimybox.core.Config
 import com.justai.aimybox.dialogapi.jaicf.JAICFDialogApi
@@ -45,6 +46,9 @@ class MainActivity : AppCompatActivity(), AimyboxProvider {
     }
 
     override val aimybox: Aimybox by lazy { createAimybox(applicationContext) }
+
+    override fun getViewModelFactory()=
+        AimyboxAssistantViewModel.Factory.getInstance(aimybox)
 
     private fun createAimybox(context: Context): Aimybox {
 

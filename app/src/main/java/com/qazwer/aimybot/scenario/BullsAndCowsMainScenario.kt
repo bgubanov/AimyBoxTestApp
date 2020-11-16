@@ -1,9 +1,8 @@
 package com.qazwer.aimybot.scenario
 
 import com.justai.jaicf.channel.aimybox.aimybox
-import com.justai.jaicf.helpers.ssml.break300ms
 import com.justai.jaicf.model.scenario.Scenario
-import com.justai.jaicf.template.BnCGame
+import com.qazwer.aimybot.bot.BnCGame
 import com.qazwer.aimybot.scenario.BullsAndCowsMainScenarioStates.RESTART_GAME_STATE
 import com.qazwer.aimybot.scenario.BullsAndCowsMainScenarioStates.START_GAME_STATE
 
